@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+  mysserver:
+    build: ./
+    ports:
+    - 7873:7873
+    environment:
+      - ip : "10.1.4.171"
